@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary */
+    /* (CTA text) */
+    --clr-light-red: hsl(356, 100%, 66%);
+    /* (CTA hover background) */
+    --clr-very-light-red: hsl(355, 100%, 74%);
+    /* (headings) */
+    --clr-very-dark-blue: hsl(208, 49%, 24%);
+
+    /* Neutral */
+    /* (text) */
+    --clr-white: hsl(0, 0%, 100%);
+    /* (footer text) */
+    --clr-grayish-blue: hsl(240, 2%, 79%);
+    /* (body copy) */
+    --clr-very-dark-grayish-blue: hsl(207, 13%, 34%);
+    /* (footer background) */
+    --clr-very-dark-black-blue: hsl(240, 10%, 16%);
+
+    /* Gradient */
+    /* Background gradient - Intro/CTA mobile nav: */
+    --clr-bg-light-red: hsl(13, 100%, 72%);
+    --clr-bg-red: hsl(353, 100%, 62%);
+
+    /* Background gradient - body: */
+    --clr-very-dark-gray-blue: hsl(237, 17%, 21%);
+    --clr-very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+    color: var(--clr-very-dark-black-blue) !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+ol {
+    padding: 0 !important;
+    margin: 0 !important;
+}
